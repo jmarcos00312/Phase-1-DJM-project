@@ -302,60 +302,88 @@
         },
         {
             "fact": "It pays to be a lap dog. Three dogs \"from First Class cabins!\" survived the sinking of the Titanic – two Pomeranians and one Pekingese."
+        }
+    ],
+    "dogs": [
+        {
+            "id": 1,
+            "name": "Max",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1518378188025-22bd89516ee2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRvZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
         },
         {
-            "message": [
-                "https://images.dog.ceo/breeds/pointer-germanlonghair/hans2.jpg",
-                "https://images.dog.ceo/breeds/pointer-german/n02100236_1634.jpg",
-                "https://images.dog.ceo/breeds/dachshund/dachshund-123503_640.jpg",
-                "https://images.dog.ceo/breeds/mix/cherry.jpg",
-                "https://images.dog.ceo/breeds/terrier-australian/n02096294_4295.jpg",
-                "https://images.dog.ceo/breeds/komondor/n02105505_2382.jpg",
-                "https://images.dog.ceo/breeds/mountain-swiss/n02107574_215.jpg",
-                "https://images.dog.ceo/breeds/beagle/n02088364_13128.jpg",
-                "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_1700.jpg",
-                "https://images.dog.ceo/breeds/terrier-tibetan/n02097474_2652.jpg",
-                "https://images.dog.ceo/breeds/bouvier/n02106382_8289.jpg",
-                "https://images.dog.ceo/breeds/doberman/n02107142_2314.jpg",
-                "https://images.dog.ceo/breeds/hound-english/n02089973_1841.jpg",
-                "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_2447.jpg",
-                "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1840.jpg",
-                "https://images.dog.ceo/breeds/spaniel-sussex/n02102480_5380.jpg",
-                "https://images.dog.ceo/breeds/waterdog-spanish/20180706_194432.jpg",
-                "https://images.dog.ceo/breeds/shiba/shiba-18.jpg",
-                "https://images.dog.ceo/breeds/weimaraner/n02092339_3345.jpg",
-                "https://images.dog.ceo/breeds/papillon/n02086910_1729.jpg",
-                "https://images.dog.ceo/breeds/terrier-welsh/lucy.jpg",
-                "https://images.dog.ceo/breeds/basenji/n02110806_3911.jpg",
-                "https://images.dog.ceo/breeds/samoyed/n02111889_1762.jpg",
-                "https://images.dog.ceo/breeds/terrier-patterdale/dog-1268559_640.jpg",
-                "https://images.dog.ceo/breeds/komondor/n02105505_4115.jpg",
-                "https://images.dog.ceo/breeds/setter-english/n02100735_6803.jpg",
-                "https://images.dog.ceo/breeds/terrier-scottish/n02097298_2083.jpg",
-                "https://images.dog.ceo/breeds/schnauzer-giant/n02097130_3615.jpg",
-                "https://images.dog.ceo/breeds/buhund-norwegian/hakon1.jpg",
-                "https://images.dog.ceo/breeds/hound-english/n02089973_556.jpg",
-                "https://images.dog.ceo/breeds/terrier-norwich/n02094258_2633.jpg",
-                "https://images.dog.ceo/breeds/retriever-chesapeake/n02099849_1115.jpg",
-                "https://images.dog.ceo/breeds/airedale/n02096051_2946.jpg",
-                "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_1772.jpg",
-                "https://images.dog.ceo/breeds/eskimo/n02109961_1276.jpg",
-                "https://images.dog.ceo/breeds/husky/n02110185_7413.jpg",
-                "https://images.dog.ceo/breeds/malamute/n02110063_7810.jpg",
-                "https://images.dog.ceo/breeds/greyhound-italian/n02091032_1635.jpg",
-                "https://images.dog.ceo/breeds/otterhound/n02091635_3475.jpg",
-                "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_4294.jpg",
-                "https://images.dog.ceo/breeds/mix/luna.jpg",
-                "https://images.dog.ceo/breeds/chow/n02112137_4447.jpg",
-                "https://images.dog.ceo/breeds/samoyed/n02111889_6750.jpg",
-                "https://images.dog.ceo/breeds/komondor/n02105505_2489.jpg",
-                "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_12801.jpg",
-                "https://images.dog.ceo/breeds/whippet/n02091134_13401.jpg",
-                "https://images.dog.ceo/breeds/malamute/n02110063_13413.jpg",
-                "https://images.dog.ceo/breeds/doberman/n02107142_12191.jpg",
-                "https://images.dog.ceo/breeds/wolfhound-irish/n02090721_2235.jpg",
-                "https://images.dog.ceo/breeds/poodle-toy/n02113624_764.jpg"
-            ]
+            "id": 2,
+            "name": "Texas",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1577106581388-0a2cebac24ed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxkb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Bruno",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1560807707-8cc77767d783?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Sky",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Zeus",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Killua",
+            "age": 2,
+            "image": "https://media.istockphoto.com/photos/furry-dog-smiling-with-tongue-out-picture-id1287452200?b=1&k=20&m=1287452200&s=170667a&w=0&h=1XDHJ1DNyzoZ1fellkNKHhmmORqx2Oqt-PSSFJ4eS50=",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Gon",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1560525821-d5615ef80c69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Levi",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Eren",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1568564321589-3e581d074f9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGRvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
+        },
+        {
+            "id": 1,
+            "name": "Mikasa",
+            "age": 2,
+            "image": "https://images.unsplash.com/photo-1536164261511-3a17e671d380?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "breed": "dog breed here",
+            "gender": "MALE/FEMALE"
         }
     ]
 }
