@@ -1,60 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
     <title>DJM.com</title>
     <script defer src="index.js"></script>
 </head>
+
 <body>
-    <header id="dog-header">
+    <header class="fixed-top lode">
         <h1>DJM website</h1>
     </header>
+
+    <!--Dog Details Here-->
     <section id="dog-container">
-        <ul id = list-dogs>
-            <div id="dog-details">
-                <hr>
+        <div id="dog-details">
+            <div>
                 <img class="detail-images" alt="Dogs">
-                <hr>
-                <h2 class="name">dog name</h2>
-                <hr>
-                <h3 class="dog-age">age</h3>
-                <hr>
-                <h3 class="dog-gender">gender</h3>
-                <hr>
-                <h3 class="dog-breed">dog breed</h3>
-                </div>
-
-        </ul>
-        <!--Dog Images Here-->
+            </div>
+            <button class="favorite-button">
+                <span>Favorite</span>
+            </button>
+            <h2 class="name">dog name</h2>
+            <h3 class="dog-age">age</h3>
+            <h3 class="dog-gender">gender</h3>
+            <h3 class="dog-breed">dog breed</h3>
+        </div>
     </section>
-<!--Dog Details Here-->
-<div id="dog-footer">
-<h3>Facts</h3>
-<span id="random-fact"></span>
-</div>
-
-</body>
-</html>
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
-</head>
-
-<body>
-    <div id="list-panel">
-        <ul id="list">
-        </ul>
+    
+    <div class="container-fluid">
+        <!--Dog Images Here-->
     </div>
-    <div id="show-panel"></div>
-    <script type="text/javascript" src="./js/index.js"></script>
+    <!-- </section> -->
+    <div id="dog-footer">
+        <h3>Facts</h3>
+        <span id="random-fact"></span>
+    </div>
+
 </body>
 
-</html> -->
+</html>
