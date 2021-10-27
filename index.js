@@ -3,6 +3,7 @@ const randomFacts = document.getElementById("random-fact");
 const imageDetails = document.getElementsByClassName("detail-images");
 const dogContainer = document.getElementById("dog-container")
 const footer = document.getElementById("dog-footer")
+const form = document.querySelector("form")
 
 
 document.addEventListener("DOMContentLoaded", () => init());
@@ -69,14 +70,28 @@ const showDefaultDog = () => {
     if (image.src) {
         showDogs()
     } else {
-        let number = Math.floor(Math.random() * 11);
-        fetch("http://localhost:3000/dogs").then(resp => resp.json()).then(dogs => {
-            image.src = dogs[number].image
-            name.textContent = dogs[number].name
-            age.textContent = dogs[number].age
-            gender.textContent = dogs[number].gender
-            breed.textContent = dogs[number].breed
-        })
-
+        let number = Math.floor(Math.random() * 10);
+        fetch("http://localhost:3000/dogs")
+            .then(resp => resp.json())
+            .then(dogs => {
+                image.src = dogs[number].image
+                name.textContent = dogs[number].name
+                age.textContent = dogs[number].age
+                gender.textContent = dogs[number].gender
+                breed.textContent = dogs[number].breed
+            })
     }
 }
+
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
+    const name = document.querySelector("#name").value
+    const email = document.querySelector("#email").value
+    const dogName = document.querySelector("#subject").value
+    const message = document.querySelector("#message").value
+
+    
+    alert(`Hello ${name}! you want us to contact you at ${email} about ${dogName}`)
+    console.log(`${name} said ${message}`)
+})
