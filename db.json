@@ -307,83 +307,67 @@
     "dogs": [
         {
             "id": 1,
-            "name": "Max",
-            "age": 2,
-            "image": "https://images.unsplash.com/photo-1518378188025-22bd89516ee2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRvZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
-        },
-        {
-            "id": 2,
-            "name": "Texas",
-            "age": 2,
-            "image": "https://images.unsplash.com/photo-1577106581388-0a2cebac24ed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxkb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
-        },
-        {
-            "id": 1,
             "name": "Bruno",
             "age": 2,
             "image": "https://images.unsplash.com/photo-1560807707-8cc77767d783?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "King Charles Spaniel",
+            "gender": "Male"
         },
         {
             "id": 1,
             "name": "Sky",
             "age": 2,
             "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "Golden Retriever",
+            "gender": "Female"
         },
         {
             "id": 1,
             "name": "Zeus",
             "age": 2,
             "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "Samoyed",
+            "gender": "Male"
         },
         {
             "id": 1,
             "name": "Killua",
             "age": 2,
             "image": "https://media.istockphoto.com/photos/furry-dog-smiling-with-tongue-out-picture-id1287452200?b=1&k=20&m=1287452200&s=170667a&w=0&h=1XDHJ1DNyzoZ1fellkNKHhmmORqx2Oqt-PSSFJ4eS50=",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "Austrailian Shephard Mix",
+            "gender": "Male"
         },
         {
             "id": 1,
             "name": "Gon",
             "age": 2,
             "image": "https://images.unsplash.com/photo-1560525821-d5615ef80c69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "American Bulldog Mix",
+            "gender": "Male"
         },
         {
             "id": 1,
             "name": "Levi",
             "age": 2,
             "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "French Bulldog",
+            "gender": "Male"
         },
         {
             "id": 1,
             "name": "Eren",
             "age": 2,
             "image": "https://images.unsplash.com/photo-1568564321589-3e581d074f9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGRvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "Siberian Husky",
+            "gender": "Male"
         },
         {
             "id": 1,
             "name": "Mikasa",
             "age": 2,
             "image": "https://images.unsplash.com/photo-1536164261511-3a17e671d380?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fGRvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            "breed": "dog breed here",
-            "gender": "MALE/FEMALE"
+            "breed": "Terrier Mix",
+            "gender": "Female"
         }
     ]
 }
