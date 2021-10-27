@@ -94,7 +94,22 @@ form.addEventListener("submit", (e) => {
     const dogName = document.querySelector("#subject").value
     const message = document.querySelector("#message").value
 
-    
+
     alert(`Hello ${name}! you want us to contact you at ${email} about ${dogName}`)
     console.log(`${name} said ${message}`)
+})
+
+const EMPTY_HEART = '♡'
+const FULL_HEART = '♥️'
+const heartLiker = document.querySelectorAll(".like-glyph")
+heartLiker.forEach(heart => {
+    console.log(heart)
+    heart.addEventListener("click", () => {
+        if (heart.textContent === EMPTY_HEART) {
+            heart.className = "activated-heart"
+            heart.textContent = FULL_HEART
+        } else {
+            heart.textContent = EMPTY_HEART
+        }
+    })
 })

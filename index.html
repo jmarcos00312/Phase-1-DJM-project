@@ -13,7 +13,7 @@
 
 <body>
     <header class="fixed-top lode">
-        <h1>DJM website</h1>
+        <h1>DJM Adoption</h1>
     </header>
 
     <!--Dog Details Here-->
@@ -21,21 +21,28 @@
         <div id="dog-details">
             <div>
                 <img class="detail-images" alt="Dogs">
-                <div class="h_container">
-                    <i id="heart" class="far fa-heart"></i>
-                </div>
-            </div>
-            <button class="favorite-button">
-                <span>Favorite</span>
-            </button>
-            <h2 class="name">dog name</h2>
-            <h3 class="dog-age">age</h3>
-            <h3 class="dog-gender">gender</h3>
-            <h3 class="dog-breed">dog breed</h3>
+
+            </div class="details">
+            <!-- <ul>
+                <li> -->
+            <header class="name-like">
+            <h2 class="name"></h2>
+            <span class="like-glyph">&#x2661;</span>
+            </header>
+
+            <!-- </li>
+            </ul> -->
+
+            <!-- <h2 class="name"><strong></strong></h2> -->
+            <h3 class="dog-age"></h3>
+            <h3 class="dog-gender"></h3>
+            <h3 class="dog-breed"></h3>
+            <!-- <span class="like-glyph">&#x2661;</span> -->
+
         </div>
         <div id="dog-footer">
             <hr>
-            <h3>Facts</h3>
+            <h3 id="facts"><strong>Facts</strong></h3>
             <span id="random-fact"></span>
         </div>
         <hr>
@@ -89,9 +96,6 @@
                         </form>
                         </form>
                         <div id="form-message-warning mt-4"></div>
-                        <div id="form-message-success">
-                            Your message was sent, thank you!
-                        </div>
                     </div>
                 </div>
             </div>
