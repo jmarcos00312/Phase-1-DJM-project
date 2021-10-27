@@ -3,7 +3,7 @@ body {
   background-image: url("https://e7.pngegg.com/pngimages/593/605/png-clipart-cartoon-cloud-animation-clouds-cartoon-blue-white.png");
   background-position: 100%;
   font-family: "Open Sans", sans-serif;
-  display: block;
+  display: grid;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -130,6 +130,10 @@ button:hover:after {
   color: red;
 }
 h2 {
+  display: flex;
+  justify-content: center;
+}
+div.row{
   display: flex;
   justify-content: center;
 }
