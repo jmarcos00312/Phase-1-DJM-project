@@ -8,8 +8,9 @@ const footer = document.getElementById("dog-footer")
 document.addEventListener("DOMContentLoaded", () => init());
 
 const init = () => {
-    factGenerator();
     renderDogs();
+    showDefaultDog()
+    factGenerator();
 };
 
 const factGenerator = () => {
@@ -31,8 +32,6 @@ const renderDogs = () => {
 const container = document.querySelector(".container-fluid")
 
 const showDogs = (dog) => {
-    // const createDiv = document.createElement("div")
-    // createDiv.className = "row"
     const createDivCol = document.createElement("div")
     createDivCol.className = "column"
     const img = document.createElement("img");
@@ -42,6 +41,7 @@ const showDogs = (dog) => {
     // createDiv.append(createDivCol)
     createDivCol.append(img, h4)
     container.append(createDivCol)
+    // console.log(dog)
 
     img.addEventListener("click", () => {
         const name = document.querySelector(".name")
@@ -59,3 +59,24 @@ const showDogs = (dog) => {
     dogContainer.appendChild(container)
 }
 
+
+const showDefaultDog = () => {
+    const image = document.querySelector(".detail-images")
+    const name = document.querySelector(".name")
+    const age = document.querySelector(".dog-age")
+    const gender = document.querySelector(".dog-gender")
+    const breed = document.querySelector(".dog-breed")
+    if (image.src) {
+        showDogs()
+    } else {
+        let number = Math.floor(Math.random() * 11);
+        fetch("http://localhost:3000/dogs").then(resp => resp.json()).then(dogs => {
+            image.src = dogs[number].image
+            name.textContent = dogs[number].name
+            age.textContent = dogs[number].age
+            gender.textContent = dogs[number].gender
+            breed.textContent = dogs[number].breed
+        })
+
+    }
+}
