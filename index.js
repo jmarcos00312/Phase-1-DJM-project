@@ -33,15 +33,17 @@ const renderDogs = () => {
 const container = document.querySelector(".container-fluid")
 
 const showDogs = (dog) => {
-    const createDivCol = document.createElement("div")
-    createDivCol.className = "column"
+    const createArticle = document.createElement("article")
+    const createHeader = document.createElement("header")
+    createArticle.className = "column"
     const img = document.createElement("img");
     img.src = dog.image
-    const h4 = document.createElement("span")
-    h4.textContent = dog.name
+    const h2 = document.createElement("h2")
+    h2.textContent = dog.name
+    createHeader.appendChild(h2)
     // createDiv.append(createDivCol)
-    createDivCol.append(img, h4)
-    container.append(createDivCol)
+    createArticle.append(img, h2)
+    container.append(createArticle)
     // console.log(dog)
 
     img.addEventListener("click", () => {
@@ -59,6 +61,7 @@ const showDogs = (dog) => {
     })
     dogContainer.appendChild(container)
 }
+let getStyle = document.querySelector("Style")
 
 
 const showDefaultDog = () => {
