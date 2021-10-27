@@ -151,3 +151,8 @@ button:hover:after {
   display: flex;
   flex-direction: row;
 }
+
+div.row {
+display: flex;
+justify-content: center;
+}
