@@ -41,10 +41,9 @@ const showDogs = (dog) => {
     const h2 = document.createElement("h2")
     h2.textContent = dog.name
     createHeader.appendChild(h2)
-    // createDiv.append(createDivCol)
     createArticle.append(img, h2)
     container.append(createArticle)
-    // console.log(dog)
+
 
     img.addEventListener("click", () => {
         const name = document.querySelector(".name")
